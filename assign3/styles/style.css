@@ -1,0 +1,376 @@
+/*
+filename: [Style.css]
+author: [Ishika]
+created: [2021-04-18]
+last modified: [2021-04-23]
+description:Website(Assignment)
+*/
+h1 {
+  color: black;
+  text-align: center;
+}
+h2 {
+  color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.index_list {
+  margin-top: 4%;
+}
+.bold {
+  font-weight: bold;
+}
+.text {
+  text-align: center;
+  font-family: sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+table.center {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Styling body*/
+body {
+  background-image: url("images/iii.jpg");
+  margin: 0;
+  padding: 0;
+}
+h1.product {
+  font: 2em x-large Arial, sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+aside {
+  width: 25%;
+  padding-left: 20px;
+  margin-left: 2%;
+  float: right;
+  font-style: oblique;
+  background-color: yellow;
+  border: 3px solid black;
+}
+.row {
+  display: flex;
+}
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+footer {
+  font-size: small;
+  text-align: center;
+  padding-top: 20px;
+  background-color: purple;
+  color: white;
+}
+footer.enhance {
+  font-size: small;
+  text-align: center;
+  padding-top: 20px;
+  background-color: purple;
+  color: white;
+  margin-top: 45%;
+}
+/*Navigation bar on every page*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.full {
+  width: 100%;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.timetable {
+  margin-top: 5%;
+}
+.det {
+  margin-right: 15%;
+}
+/*Styling timetable in about us*/
+h2.timetable {
+  margin-top: 5%;
+}
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4f9f9;
+  table-layout: fixed;
+  padding: 15px;
+}
+th {
+  background-color: #709fb0;
+  color: white;
+}
+tr td:nth-child(1) {
+  background-color: #709fb0;
+  color: white;
+}
+.tne {
+  background-color: #a4ebf3;
+}
+.cle {
+  background-color: #e5df88;
+}
+.cwa {
+  background-color: #9ede73;
+}
+.itp {
+  background-color: #e4bad4;
+}
+
+#myphoto {
+  display: block;
+  float: right;
+  padding: 20px;
+  border-width: 5px;
+  border-style: double;
+}
+/*Definition list*/
+dt {
+  float: left;
+  clear: left;
+  width: 30px;
+}
+dd {
+  margin-left: 12%;
+  padding: 0 0 1em;
+}
+dl {
+  display: block;
+  margin-top: 8em;
+  margin-bottom: 0.9em;
+  margin-left: 40%;
+  margin-right: 0;
+}
+/*Styling  heading of product page*/
+h1.product {
+  font: 2em x-large;
+  text-align: center;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.productlist {
+  margin-left: 7%;
+}
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+/*Styling buttons*/
+button[type="submit"] {
+  width: 10%;
+  background-color: rgb(17, 118, 143);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(17, 118, 143);
+}
+button[type="reset"] {
+  width: 10%;
+  background-color: rgb(17, 118, 143);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  position: relative;
+}
+button[type="reset"]:hover {
+  background-color: rgb(17, 118, 143);
+}
+#wifiplanheading {
+  color: rgb(7, 63, 63);
+  font-size: xx-large;
+}
+.dp {
+  float: right;
+  margin-right: 8%;
+  border: 2px solid black;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: absolute;
+  top: 113%;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+.form {
+  padding: 96px;
+}
+.coupon {
+  border: 5px dotted #bbb; /* Dotted border */
+  width: 80%;
+  border-radius: 15px; /* Rounded border */
+  margin: 0 auto; /* Center the coupon */
+  max-width: 600px;
+}
+/*Coupon's styling code*/
+.container {
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+}
+
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+.expire {
+  color: red;
+}
+/*Styling for boxes in enquire and payment pages*/
+#email,
+#package,
+#cost,
+#total,
+#category,
+#qte,
+#cvv {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px 0px 12px;
+}
+
+#co {
+  float: left;
+}
+#po {
+  float: right;
+}
+#expirydate,
+#year {
+  width: 49.75%;
+}
+
+/* Style the tab buttons */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Style each tab content individually */
+#mb1 {
+  background-color: rgb(169, 113, 221);
+}
+#mb2 {
+  background-color: skyblue;
+}
+#wp1 {
+  background-color: pink;
+}
+#wp2 {
+  background-color: rgb(233, 233, 87);
+}
+.readonly, #readonly1, #readonly2, #readonly3 {
+  pointer-events: none;                 
+}
